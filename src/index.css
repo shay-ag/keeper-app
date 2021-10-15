@@ -7,13 +7,13 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
+  background: #4cc9f0;
   padding: 0 16px;
   background-image: url("https://www.transparenttextures.com/patterns/psychedelic.png");
 }
 
 header {
-  background-color: #f5ba13;
+  background-color: #b5179e;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -40,7 +40,7 @@ footer p {
   left: 42rem;
 }
 .note {
-  background: #fff;
+  background: #dfe7fd;
   border-radius: 7px;
   box-shadow: 0 2px 5px #ccc;
   padding: 10px;
@@ -63,7 +63,7 @@ footer p {
   position: relative;
   float: right;
   margin-right: 10px;
-  color: #f5ba13;
+  color: #b5179e;
   border: none;
   width: 36px;
   height: 36px;
@@ -75,7 +75,7 @@ form.create-note {
   position: relative;
   width: 480px;
   margin: 30px auto 20px auto;
-  background: #fff;
+  background: #dfe7fd;
   padding: 15px;
   border-radius: 7px;
   box-shadow: 0 1px 5px rgb(138, 137, 137);
@@ -94,7 +94,7 @@ form.create-note button {
   position: absolute;
   right: 18px;
   bottom: -18px;
-  background: #f5ba13;
+  background: #b5179e;
   color: #fff;
   border: none;
   border-radius: 50%;
