@@ -5,7 +5,8 @@ import DeleteIcon from '@material-ui/icons/Delete';
 function Note(props){
 
     function handleClick(){
-        props.onDelete(props.id);
+        console.log(props.id);
+        props.onDelete(props.id, props.title);
     }
     return (
         <div className="note">

@@ -28,8 +28,11 @@ function CreateArea(props){
     }
 
     function handleClick(event){
-        props.onAdd(inputText)
+        props.onAdd(inputText);
+
+        setInputText();
         event.preventDefault();
+
     }
 
     return(
@@ -45,7 +48,7 @@ function CreateArea(props){
         onClick={handleExpansion} 
         name="content" 
         placeholder="Make a note..." 
-        rows = {isExpanded? "3": "1"}/>
+        rows = {isExpanded? "3": "1"} />
 
         <Zoom in={isExpanded}>
         <Fab onClick={handleClick}>
