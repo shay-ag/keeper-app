@@ -48,7 +48,7 @@ function CreateArea(props){
         onClick={handleExpansion} 
         name="content" 
         placeholder="Make a note..." 
-        rows = {isExpanded? "3": "1"} />
+        rows = {isExpanded? "7": "1"} />
 
         <Zoom in={isExpanded}>
         <Fab onClick={handleClick}>

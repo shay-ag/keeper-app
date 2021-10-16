@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import Header from "./Header";
 import CreateArea from "./CreateArea";
 import Note from "./Note";
@@ -36,6 +36,16 @@ function App(){
             }))
         })
     }
+
+    useEffect( () =>{
+        const notes = window.localStorage.getItem("mykey");
+        console.log(notes);
+        setNotes(JSON.parse(notes));
+    }, [])
+
+    useEffect( () => {
+        window.localStorage.setItem("mykey", JSON.stringify(notes));
+    })
 
     return (
         <div>
