@@ -1,6 +1,6 @@
 {
-  "homepage": "http://shay-ag.github.io/keeper-app",
   "name": "keeper-app",
+  "homepage": "https://shay-ag.github.io/keeper-app",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
